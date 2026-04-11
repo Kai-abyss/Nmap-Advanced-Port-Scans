@@ -50,11 +50,11 @@ One scenario where these three scan types can be efficient is when scanning a ta
 ✅ Answer the questions below
 
 1. In a null scan, how many flags are set to 1?
-✅ . 0 NULL (NO FLAG SET)
+✅ . 0 [NULL (NO FLAG SET)]
 2. In a FIN scan, how many flags are set to 1?
-✅ . 1 FIN
+✅ . 1 (FIN)
 3. In a Xmas scan, how many flags are set to 1?
-✅ . 3 FIN, PSH, URG
+✅ . 3 (FIN, PSH, URG)
 4. Start the VM and load the AttackBox. Once both are ready, open the terminal on the AttackBox and use nmap to launch a FIN scan against the target VM. How many ports appear as open|filtered?
 ✅ . 9
 
