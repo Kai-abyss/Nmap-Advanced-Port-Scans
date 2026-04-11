@@ -58,5 +58,10 @@ One scenario where these three scan types can be efficient is when scanning a ta
 4. Start the VM and load the AttackBox. Once both are ready, open the terminal on the AttackBox and use nmap to launch a FIN scan against the target VM. How many ports appear as open|filtered?
 ✅ . 9
 
+<img width="902" height="603" alt="image" src="https://github.com/user-attachments/assets/abc27831-acdb-4e1a-88b1-48aa6766d7f1" />
+
+
 5.Repeat your scan launching a null scan against the target VM. How many ports appear as open|filtered?
 ✅ . 9
+
+<img width="936" height="626" alt="image" src="https://github.com/user-attachments/assets/bfd136c0-3845-41b6-9990-0c7b2393211c" />
