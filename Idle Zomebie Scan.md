@@ -3,7 +3,7 @@ Spoofing the source IP address can be a great approach to scanning stealthily. H
 The idle scan, or zombie scan, requires an idle system connected to the network that you can communicate with. Practically, Nmap will make each probe appear as if coming from the idle (zombie) host, then it will check for indicators whether the idle (zombie) host received any response to the spoofed probe. This is accomplished by checking the IP identification (IP ID) value in the IP header. You can run an idle scan using nmap -sI ZOMBIE_IP MACHINE_IP, where ZOMBIE_IP is the IP address of the idle host (zombie).
 
 The idle (zombie) scan requires the following three steps to discover whether a port is open:
-
+ 
 1. Trigger the idle host to respond so that you can record the current IP ID on the idle host.
 2. Send a SYN packet to a TCP port on the target. The packet should be spoofed to appear as if it was coming from the idle host (zombie) IP address.
 3. Trigger the idle machine again to respond so that you can compare the new IP ID with the one received earlier.
