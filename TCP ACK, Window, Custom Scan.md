@@ -41,4 +41,11 @@ Finally, it is essential to note that the ACK scan and the window scan were very
 ✅ Answer the questions below
 1. In TCP Window scan, how many flags are set?
 ✅. 1 (ACK)
-2. 
+2. You decided to experiment with a custom TCP scan that has the reset flag set. What would you add after --scanflags?
+✅. RST
+3. The VM received an update to its firewall ruleset. A new port is now allowed by the firewall. After you make sure that you have terminated the VM from Task 2, start the VM for this task. Launch the AttackBox if you haven't done that already. Once both are ready, open the terminal on the AttackBox and use Nmap to launch an ACK scan against the target VM. How many ports appear unfiltered?
+✅. 4
+4. What is the new port number that appeared? To determine the new port you need to compare the scan results of Task 2 to the ones of this task
+✅. 443
+5. Is there any service behind the newly discovered port number? (Y/N)
+✅. N 
